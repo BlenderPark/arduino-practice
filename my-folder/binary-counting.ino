@@ -1,0 +1,114 @@
+int redLED = 7;
+int blueLED = 6;
+int greenLED = 5;
+int whiteLED = 4;
+
+int onTIME = 800; //15
+int pause = 700;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(redLED,OUTPUT);
+  pinMode(blueLED,OUTPUT);
+  pinMode(greenLED,OUTPUT);
+  pinMode(whiteLED,OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  delay(pause);
+  digitalWrite(whiteLED,HIGH);
+  delay(onTIME);
+  digitalWrite(whiteLED,LOW);
+  delay(pause);
+  digitalWrite(greenLED,HIGH);
+  delay(onTIME);
+  digitalWrite(greenLED,LOW);
+  delay(pause);
+  digitalWrite(whiteLED,HIGH);
+  digitalWrite(greenLED,HIGH);
+  delay(onTIME);
+  digitalWrite(whiteLED,LOW);
+  digitalWrite(greenLED,LOW);
+  delay(pause);
+  digitalWrite(blueLED,HIGH);
+  delay(onTIME);
+  digitalWrite(blueLED,LOW);
+  delay(pause);
+  digitalWrite(whiteLED,HIGH);
+  digitalWrite(blueLED,HIGH);
+  delay(onTIME);
+  digitalWrite(whiteLED,LOW);
+  digitalWrite(blueLED,LOW);
+  delay(pause);
+  digitalWrite(greenLED,HIGH);
+  digitalWrite(blueLED,HIGH);
+  delay(onTIME);
+  digitalWrite(greenLED,LOW);
+  digitalWrite(blueLED,LOW);
+  delay(pause);
+  digitalWrite(whiteLED,HIGH);
+  digitalWrite(greenLED,HIGH);
+  digitalWrite(blueLED,HIGH);
+  delay(onTIME);
+  digitalWrite(whiteLED,LOW);
+  digitalWrite(greenLED,LOW);
+  digitalWrite(blueLED,LOW);
+  delay(pause);
+  digitalWrite(redLED,HIGH);
+   delay(onTIME);
+   digitalWrite(redLED,LOW);
+   delay(pause);
+  digitalWrite(whiteLED,HIGH);
+  digitalWrite(redLED,HIGH);
+   delay(onTIME);
+    digitalWrite(whiteLED,LOW);
+  digitalWrite(redLED,LOW);
+   delay(pause);
+  digitalWrite(greenLED,HIGH);
+  digitalWrite(redLED,HIGH);
+   delay(onTIME);
+   digitalWrite(greenLED,LOW);
+  digitalWrite(redLED,LOW);
+   delay(pause);
+  digitalWrite(whiteLED,HIGH);
+  digitalWrite(greenLED,HIGH);
+  digitalWrite(redLED,HIGH);
+   delay(onTIME);
+   digitalWrite(whiteLED,LOW);
+  digitalWrite(greenLED,LOW);
+  digitalWrite(redLED,LOW);
+   delay(pause);
+  digitalWrite(redLED,HIGH);
+  digitalWrite(blueLED,HIGH);
+   delay(onTIME);
+   digitalWrite(redLED,LOW);
+  digitalWrite(blueLED,LOW);
+   delay(pause);
+  digitalWrite(whiteLED,HIGH);
+  digitalWrite(blueLED,HIGH);
+  digitalWrite(redLED,HIGH);
+   delay(onTIME);
+   digitalWrite(whiteLED,LOW);
+  digitalWrite(blueLED,LOW);
+  digitalWrite(redLED,LOW);
+   delay(pause);
+  digitalWrite(greenLED,HIGH);
+  digitalWrite(blueLED,HIGH);
+  digitalWrite(redLED,HIGH);
+   delay(onTIME);
+   digitalWrite(greenLED,LOW);
+  digitalWrite(blueLED,LOW);
+  digitalWrite(redLED,LOW);
+   delay(pause);
+  digitalWrite(whiteLED,HIGH);
+  digitalWrite(greenLED,HIGH);
+  digitalWrite(blueLED,HIGH);
+  digitalWrite(redLED,HIGH);
+   delay(onTIME);
+   digitalWrite(whiteLED,LOW);
+  digitalWrite(greenLED,LOW);
+  digitalWrite(blueLED,LOW);
+  digitalWrite(redLED,LOW);
+   delay(pause);
+}
