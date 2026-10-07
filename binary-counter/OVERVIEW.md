@@ -1,1 +1,1 @@
-This project is simply 4 LEDs counting from 0 to 15 in binary. The code is not optimized or efficient. I am just a beginner who completed the assignment from a YouTube video I watched. The video: https://www.youtube.com/watch?v=kqKI3tOto2k.
+This project is simply 4 LEDs counting from 0 to 15 in binary. The code is not optimized or efficient. I am just a beginner who completed the assignment from a YouTube video I watched. The video: https: //www.youtube.com/watch?v=rTuKKVcYeMg&list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP&index=5.
